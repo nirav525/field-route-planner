@@ -77,7 +77,8 @@ with left:
             state.rules += parsed.rules
             state.last_parse = parsed
 
-    st.caption(f"Note reader spend in this app: ${budget.spent():.2f} of ${budget.LIMIT_USD:.2f}")
+    # Streamlit reads paired dollar signs as math, so they are escaped.
+    st.caption(f"Note reader spend in this app: \\${budget.spent():.2f} of \\${budget.LIMIT_USD:.2f}")
 
     parsed = state.get("last_parse")
     if parsed:

@@ -6,6 +6,12 @@ This is a sanitized reconstruction of a dispatch system I built and run at my cu
 
 I decided what this tool does and what it leaves out. Claude Code wrote most of the code.
 
+![The plan for a short-staffed day: stops, miles and drive time against the baseline, the route map, and each technician's schedule](docs/plan.png)
+
+Typed notes become rules, and each rule shows the words it came from so a person can check it:
+
+![Five typed notes turned into five rules](docs/notes-to-rules.png)
+
 ## How it works
 
 1. **Input:** 40 made-up sites with stock levels, opening hours and visit lengths, and 4 technicians with shifts. A site is due when its stock is under 60%.
