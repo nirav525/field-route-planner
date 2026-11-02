@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/decisions.csv
+.streamlit/secrets.toml
+.claude/
+data/llm_spend.json
